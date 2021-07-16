@@ -15,14 +15,13 @@
     margin: 100px auto;
     display:flex;
     gap: 5px;
+   
 }  
   
 .item{
     
     flex-basis: 50%;
 }
-
-
 
 .right-section{
     padding-left: 30px;
@@ -91,8 +90,7 @@
 
 img{
     width: 250px;
-    max-width: 100%;
-   
+    max-width: 100%;  
 }
 
 .name{
@@ -128,3 +126,79 @@ img{
 .username{
     font-weight:bold;
 }
+
+@media screen and (max-width: 992px) {
+    .main{
+        width:100%;
+        display: block;
+    }
+    .main-title{
+        padding-left: 85px;
+        margin-bottom: 70px;
+    }
+    .right-section{
+        padding-left:85px;
+        padding-right: 30px;
+        max-width:650px;
+    }
+    img{
+        width: 200px;
+    }
+    .team-members{
+        
+        gap:unset;
+    }
+    .team{
+        flex-grow:unset;
+    }
+    .member-1{
+        margin-bottom:0px;
+    }
+    .member-2{
+        margin-top: 60px;
+    }
+    .member-3{
+        margin-bottom:0px;
+    }
+    .member-4{
+        margin-top:60px;
+        margin-bottom:0;
+    }
+    .member-5{
+        margin-top:0px;
+    }
+    .member-6{
+        margin-top: 60px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .main{
+        margin-top: 80px;
+        margin-bottom:50px;
+    }
+    .main-title{
+        padding-left: 20px;
+        margin-bottom: 40px;
+    }
+    .right-section{
+        padding-left:20px;
+        padding-right: 30px;
+    }
+    .description{
+        font-size:16px;
+    }
+    img{
+        width: 130px;
+    }
+    .team-members{
+        max-width:97%;
+        padding:35px;
+    }
+    
+  }
+
+  @media screen and (max-width: 576px){
+      
+  }
+
