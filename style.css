@@ -192,13 +192,13 @@ img{
         width: 130px;
     }
     .team-members{
-        max-width:97%;
-        padding:35px;
+        max-width:99%;
+        padding:25px;
     }
     
   }
 
   @media screen and (max-width: 576px){
-      
+
   }
 
