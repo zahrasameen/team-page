@@ -127,6 +127,12 @@ img{
     font-weight:bold;
 }
 
+@media screen and (max-width: 1200px){
+    .team-members{
+        max-width:90%;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .main{
         width:100%;
