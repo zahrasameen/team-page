@@ -4,42 +4,127 @@
     font-family: 'Poppins', sans-serif;
 
     font-family: 'PT Serif', serif; */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif&family=Poppins&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
 * {
     box-sizing: border-box;
   }
 
 .main{
-    width:65%;
-    max-width: 750px;
-    margin: 0 auto;
+    width: 70%;
+    max-width: 980px;
+    margin: 100px auto;
     display:flex;
+    gap: 5px;
 }  
   
 .item{
-    flex-shrink: 0;
+    
     flex-basis: 50%;
 }
+
+
+
+.right-section{
+    padding-left: 30px;
+    padding-right: 50px;
+}
 .team-members{
-    width:65%;
-    max-width: 750px;
-    margin: 0 auto;
+    max-width:70%;
+    width: 980px;
+    margin:0 auto;
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-between;
-
+    JUSTIFY-CONTENT:SPACE-BETWEEN;
+    gap: 50px;
 }
 
 .team{
-    flex: 0 0 32%;    
-    margin-bottom: 2%; /* (100-32*3)/2 */
+       
+    flex-grow: 1;
+    
+}
+.member-1{
+    margin-bottom:95px;
+}
+.member-2{
+    margin-top: 95px;
+}
+.member-3{
+    margin-bottom:95px;
+}
+.member-4{
+    margin-bottom:95px;
+}
+.member-5{
+    margin-top:95px;
+}
+.member-6{
+    margin-bottom: 95px;
+}
+
+.main-title{
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    margin-top: 12px;
+}
+
+.secondary-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.description{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 img{
-    width: 300px;
+    width: 250px;
     max-width: 100%;
+   
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.position{
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    vertical-align: top;
+    writing-mode: vertical-rl;
 }
 
 .footer-text{
-    text-align: center;}
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4f4f4fa8;
+}
+
+.username{
+    font-weight:bold;
+}
