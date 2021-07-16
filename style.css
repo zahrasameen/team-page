@@ -128,8 +128,15 @@ img{
 }
 
 @media screen and (max-width: 1200px){
+   .main{
+       margin:100px auto;
+   }
     .team-members{
         max-width:90%;
+        padding: 20px;
+    }
+    .footer-text{
+        margin-top: 30%;
     }
 }
 
