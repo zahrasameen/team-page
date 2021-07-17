@@ -1,10 +1,5 @@
-/* Fonts
-    font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
 
-    font-family: 'Poppins', sans-serif;
-
-    font-family: 'PT Serif', serif; */
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
 * {
     box-sizing: border-box;
   }
@@ -127,7 +122,7 @@ img{
     font-weight:bold;
 }
 
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
    .main{
        margin:100px auto;
    }
@@ -157,9 +152,9 @@ img{
     .footer-text{
         margin-top: 30%;
     }
-}
+} */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     .main{
         width:100%;
         display: block;
@@ -202,35 +197,67 @@ img{
     .member-6{
         margin-top: 60px;
     }
-  }
+  } */
 
-  @media screen and (max-width: 576px){
+  @media only screen and (min-device-width : 300px) and (max-device-width : 576px) {
     .main{
         margin-top: 80px;
         margin-bottom:50px;
+        width:100%;
+        display: block;
     }
     .main-title{
-        padding-left: 20px;
+        padding-left: 4%;
         margin-bottom: 40px;
     }
     .right-section{
-        padding-left:20px;
-        padding-right: 30px;
+        padding-left: 4%;
     }
     .description{
         font-size:16px;
     }
     img{
-        width: 130px;
+        width: 70%;
+    }
+    .name{
+        font-size:12px;
+        margin:0;
+    }
+    .position{
+        font-size:10px;
     }
     .team-members{
-        max-width:99%;
-        padding:25px;
+        gap:unset;
+        max-width:98%;
+        padding: 5%
     }
-    
+    .team{
+        flex-basis:50%;
+    }
+    .member-1{
+        margin-bottom:0px;
+    }
+    .member-2{
+        margin-top: 55px;
+    }
+    .member-3{
+        margin-bottom:0px;
+    }
+    .member-4{
+        margin-top:55px;
+        margin-bottom:0;
+    }
+    .member-5{
+        margin-top:0px;
+    }
+    .member-6{
+        margin-top: 55px;
+    }
+    .footer-text{
+        font-size:12px;
+        margin-top: 100px;
+    }
   }
 
-  @media screen and (max-width: 576px){
 
-  }
 
