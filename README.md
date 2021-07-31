@@ -30,7 +30,7 @@
 
 ## Final Result
 
-![screenshot](https://github.com/zahrasameen/team-page/blob/main/preview.PNG)
+![screenshot](https://github.com/zahrasameen/team-page/blob/main/img/preview.PNG)
 
 ### Built With
 
